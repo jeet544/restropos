@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "ritwickdey.LiveServer",
+    "ms-vscode.live-server",
+    "ms-python.python",
+    "cweijan.vscode-mysql-client2",
+    "rangav.vscode-thunder-client",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets"
+  ]
+}

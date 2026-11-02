@@ -1,0 +1,25 @@
+{
+  "name": "restropos",
+  "version": "1.0.0",
+  "description": "RestroPOS - Restaurant Point of Sale Management System",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start",
+    "frontend:build": "cd frontend && npm run build",
+    "server": "npm run backend",
+    "server:dev": "npm run backend:dev",
+    "client": "npm run frontend",
+    "client:build": "npm run frontend:build",
+    "dev": "concurrently --kill-others \"npm run backend:dev\" \"npm run frontend\"",
+    "start": "concurrently --kill-others \"npm run backend\" \"npm run frontend\"",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "seed": "cd backend && npm run seed",
+    "test": "python3 tests/test_suite.py"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "author": "Jeet Vaghasia",
+  "license": "MIT"
+}
